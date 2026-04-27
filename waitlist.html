@@ -558,7 +558,7 @@
       <li><a href="waitlist.html">Waitlist</a></li>
       <li><a href="privacy.html">Privacy</a></li>
       <li><a href="terms.html">Terms</a></li>
-      <li><a href="mailto:support@oxus.app">Support</a></li>
+      <li><a href="mailto:oxusapp@gmail.com">Support</a></li>
     </ul>
   </footer>
 
@@ -693,7 +693,7 @@
 
         if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
           statusEl.className = 'form-status err';
-          statusEl.textContent = 'Sign-ups aren’t configured. Please try again later or email support@oxus.app.';
+          statusEl.textContent = 'Sign-ups aren’t configured. Please try again later or email oxusapp@gmail.com.';
           return;
         }
 
@@ -738,11 +738,11 @@
             statusEl.className = 'form-status err';
             statusEl.textContent = detail
               ? 'Could not save: ' + detail
-              : 'Something went wrong. Please try again or email support@oxus.app.';
+              : 'Something went wrong. Please try again or email oxusapp@gmail.com.';
           }
         } catch (err) {
           statusEl.className = 'form-status err';
-          statusEl.textContent = 'Something went wrong. Please try again or email support@oxus.app.';
+          statusEl.textContent = 'Something went wrong. Please try again or email oxusapp@gmail.com.';
         } finally {
           submitBtn.disabled = false;
         }
