@@ -712,6 +712,15 @@
       .anti-grid { grid-template-columns: 1fr; }
     }
 
+    @media (max-width: 760px) {
+      .hero {
+        min-height: auto;
+        justify-content: flex-start;
+        padding-top: calc(68px + 2.5rem);
+        padding-bottom: 3.5rem;
+      }
+    }
+
     @media (max-width: 520px) {
       footer { flex-direction: column; text-align: center; }
     }
